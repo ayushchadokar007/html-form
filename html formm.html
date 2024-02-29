@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <h2 align="center"> Registration Form</h2>
+    </header>
+    
+    <main>
+        <form method="post">
+<!-- CONTACT DETAIL --> 
+            <fieldset>    
+                <legend><h4> CONTACT DETAIL</h4> </legend>
+                <label for="name"><big>First Name:</big></label>
+                <input type="text" id="name" name="name" placeholder="Enter First Name..">&nbsp;&nbsp; 
+                <label for="name"><big>Last Name:</big></label>
+                <input type="text" id="name" name="name" placeholder="Enter Last Name.."><br><br>
+                <label for="email"><big>Email:</big></label>
+                <input type="email" id="email" name="email" placeholder="Enter Email.."><br><br>
+                <label for="mobile"><big>Moblie Number:</big></label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter Mobile Number.."><br><br>
+                <button type="reset">Reset </button>
+            </fieldset>
+
+<!-- PERSONAL INFORMATION --> 
+            <fieldset>
+                <legend><h4> PERSONAL INFORMATION</h4></legend>
+                <label for="address"><big>Address:</big></label>
+                <input type="text" id="address" name="address" placeholder="Your Address.."><br><br>
+                <label for="birth"><big>Birth Date:</big></label>
+                <input type="date" id="birth" name="birth"><br><br>
+                <label for="gender"><big>Gender:</big></label> 
+                <input type=radio name="gender">Men
+                <input type=radio name="gender">Women
+                <input type=radio name="gender">Other <br><br>
+                <label for="country"><big>Country:</big> </label>
+                <select>
+                    <option>select an option</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="australia">Australia</option>
+                    <option value="Bharat">Bharat</option>
+                    <option value="USA">USA</option>
+                    <option value="china">Chine</option>
+                    <option value="japan">Japan</option>
+                </select><br><br>
+               <Right><button type="reset">Reset </button></Right>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <br>
+        <fieldset border="2">
+        <label for=message><big>Message:</big></label><br>
+        <textarea type="text" value="Enter your Message" placeholder="Enter Your Message" cols="30" rows="4"> </textarea><br>
+        <p>If all the detail submit by you is true then click her<input type="checkbox"></p> 
+        <input type="button" value="Submit"> <br><br>
+    </fieldset>
+    </footer><br><br>
+</body>
+</html>
